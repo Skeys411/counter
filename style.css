@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-size: 16px;
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 5rem;
+}
+
+h2 {
+  margin: 10px 0px;
+  font-size: 3.6rem;
+  color: blue;
+}
+
+button {
+  padding: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.incrementbtn,
+.decrementbtn {
+  background-color: green;
+  color: white;
+}
+
+.resetbtn {
+  background-color: red;
+}
